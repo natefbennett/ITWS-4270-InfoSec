@@ -155,7 +155,7 @@ int main( int argc, char *argv[] ) {
 
                 // check if user has permission
                 if ( CheckAuth( GetAuth(cur_uid), 'w' ) )
-                    system("echo \"echo \"...just some text\"\" >> ex2.txt");
+                    system("nano ex2.txt");
                 else
                     printf("Error: No one said you could do that!\n");
 
